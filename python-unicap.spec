@@ -52,9 +52,7 @@ export CFLAGS="%{rpmcflags}"
 rm -rf $RPM_BUILD_ROOT
 
 cd src
-%{__python} setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
