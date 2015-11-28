@@ -2,7 +2,7 @@ Summary:	Python binding to unicap video capture library
 Summary(pl.UTF-8):	Wiązanie Pythona do biblioteki przechwytywania obrazu unicap
 Name:		python-unicap
 Version:	0.3.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries/Python
 #Source0Download: http://unicap-imaging.org/download.htm
