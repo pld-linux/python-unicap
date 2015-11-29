@@ -9,6 +9,7 @@ Group:		Libraries/Python
 Source0:	http://unicap-imaging.org/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	7afcb0a1d03579baa1107f3e760d67b2
 URL:		http://unicap-imaging.org/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	libucil-devel
 BuildRequires:	libunicap-devel
 BuildRequires:	libunicapgtk-devel
